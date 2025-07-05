@@ -1,0 +1,26 @@
+*,
+*::before
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: yellow;
+    color: purple;
+    font-family: Verdana, Arial, sans-serif, serif;
+}
+
+a,
+.ingredients {
+    display: block;
+    text-align: center;
+    list-style: inside;
+    font-size: 22px;
+}
+
+p {
+    font-size: 26px;
+}
+

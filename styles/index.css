@@ -1,0 +1,28 @@
+*,
+*::before
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: blue;
+}
+
+body {
+    background-color: yellow;
+    font-family: Verdana, Arial, sans-serif, serif;
+}
+
+.odin-recipes,
+.recipes {
+    list-style: none;
+    text-align: center;
+}
+
+.recipes li {
+    margin-bottom: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+}
